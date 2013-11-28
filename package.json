@@ -1,0 +1,21 @@
+{
+  "name": "directory-backbone-bootstrap-require",
+  "version": "0.1.0",
+  "description": "### Sample Application built with Backbone.js, RequireJS and Twitter Bootstrap ###",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jefferysmith/directory-backbone-bootstrap-require.git"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jefferysmith/directory-backbone-bootstrap-require/issues"
+  },
+  "homepage": "https://github.com/jefferysmith/directory-backbone-bootstrap-require",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-connect": "~0.5.0"
+  }
+}
