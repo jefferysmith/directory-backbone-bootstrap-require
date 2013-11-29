@@ -5,20 +5,14 @@ define(function (require) {
     var $                   = require('jquery'),
         _                   = require('underscore'),
         Backbone            = require('backbone'),
-        tpl                 = require('text!tpl/EmployeeListItem.html'),
+        tpl                 = require('text!templates/Home.html'),
 
         template = _.template(tpl);
 
     return Backbone.View.extend({
 
-        tagName: "li",
-
-        initialize: function () {
-            this.model.on("change", this.render, this);
-        },
-
         render: function () {
-            this.$el.html(template(this.model.attributes));
+            this.$el.html(template());
             return this;
         }
 
