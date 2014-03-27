@@ -9,7 +9,10 @@ Refer to [this blog](http://coenraets.org) for more information about the applic
 
 The application runs out-of-the-box with an in-memory data store.
 
-If you want to experiment the application with other persistence layers, download the REST services in the following repositories:
+The REST-based implementation expects the following API:
 
-- [directory-rest-nodejs](https://github.com/ccoenraets/directory-rest-nodejs) (Node.js/MongoDB implementation)
-- [directory-rest-php](https://github.com/ccoenraets/directory-rest-php) (PHP implementation)
+Description                     | HTTP | URL
+--------------------------------|------|----
+List employees                  | GET  |`employees/`
+Get individual employee         | GET  |`employees/[id]`
+List individual employee reports| GET  |`employees/[id]/reports`
